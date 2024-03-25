@@ -1,0 +1,457 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xD54CFA8377308A9A",
+      "device": "xc7z020clg400-1",
+      "gen_directory": "../../../../lab_final.gen/sources_1/bd/NN_bd",
+      "name": "NN_bd",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2021.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "blk_rom_inimg": "",
+      "blk_rom_weight": "",
+      "blk_rom_other_weight": "",
+      "blk_ram_temp": "",
+      "NN_Top_0": ""
+    },
+    "ports": {
+      "sys_clk": {
+        "direction": "I"
+      },
+      "rst_n": {
+        "direction": "I"
+      },
+      "end_ConV1": {
+        "direction": "O"
+      },
+      "ram_data_rtb": {
+        "direction": "O",
+        "left": "7",
+        "right": "0"
+      },
+      "ram_en_rtb": {
+        "direction": "I"
+      },
+      "start_ConV1": {
+        "direction": "I"
+      },
+      "ram_addr_rtb": {
+        "direction": "I",
+        "left": "15",
+        "right": "0"
+      }
+    },
+    "components": {
+      "blk_rom_inimg": {
+        "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+        "xci_name": "NN_bd_blk_mem_gen_0_0",
+        "xci_path": "ip\\NN_bd_blk_mem_gen_0_0\\NN_bd_blk_mem_gen_0_0.xci",
+        "inst_hier_path": "blk_rom_inimg",
+        "parameters": {
+          "Coe_File": {
+            "value": "../../../../../../../CNN_information/coe file/input_coe/input_image.coe"
+          },
+          "Enable_32bit_Address": {
+            "value": "false"
+          },
+          "Load_Init_File": {
+            "value": "true"
+          },
+          "Memory_Type": {
+            "value": "Single_Port_ROM"
+          },
+          "Port_A_Write_Rate": {
+            "value": "0"
+          },
+          "Register_PortA_Output_of_Memory_Primitives": {
+            "value": "true"
+          },
+          "Use_RSTA_Pin": {
+            "value": "false"
+          },
+          "Write_Depth_A": {
+            "value": "4096"
+          },
+          "Write_Width_A": {
+            "value": "8"
+          },
+          "use_bram_block": {
+            "value": "Stand_Alone"
+          }
+        }
+      },
+      "blk_rom_weight": {
+        "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+        "xci_name": "NN_bd_blk_mem_gen_1_0",
+        "xci_path": "ip\\NN_bd_blk_mem_gen_1_0\\NN_bd_blk_mem_gen_1_0.xci",
+        "inst_hier_path": "blk_rom_weight",
+        "parameters": {
+          "Coe_File": {
+            "value": "../../../../../../../CNN_information/coe file/weight.coe"
+          },
+          "Enable_32bit_Address": {
+            "value": "false"
+          },
+          "Load_Init_File": {
+            "value": "true"
+          },
+          "Memory_Type": {
+            "value": "Single_Port_ROM"
+          },
+          "Port_A_Write_Rate": {
+            "value": "0"
+          },
+          "Register_PortA_Output_of_Memory_Primitives": {
+            "value": "true"
+          },
+          "Use_RSTA_Pin": {
+            "value": "false"
+          },
+          "Write_Depth_A": {
+            "value": "32768"
+          },
+          "Write_Width_A": {
+            "value": "8"
+          },
+          "use_bram_block": {
+            "value": "Stand_Alone"
+          }
+        }
+      },
+      "blk_rom_other_weight": {
+        "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+        "xci_name": "NN_bd_blk_mem_gen_2_0",
+        "xci_path": "ip\\NN_bd_blk_mem_gen_2_0\\NN_bd_blk_mem_gen_2_0.xci",
+        "inst_hier_path": "blk_rom_other_weight",
+        "parameters": {
+          "Coe_File": {
+            "value": "../../../../../../../CNN_information/coe file/M0_bias.coe"
+          },
+          "Enable_32bit_Address": {
+            "value": "false"
+          },
+          "Load_Init_File": {
+            "value": "true"
+          },
+          "Memory_Type": {
+            "value": "Single_Port_ROM"
+          },
+          "Port_A_Write_Rate": {
+            "value": "0"
+          },
+          "Register_PortA_Output_of_Memory_Primitives": {
+            "value": "true"
+          },
+          "Use_RSTA_Pin": {
+            "value": "false"
+          },
+          "Write_Depth_A": {
+            "value": "512"
+          },
+          "use_bram_block": {
+            "value": "Stand_Alone"
+          }
+        }
+      },
+      "blk_ram_temp": {
+        "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+        "xci_name": "NN_bd_blk_mem_gen_0_1",
+        "xci_path": "ip\\NN_bd_blk_mem_gen_0_1\\NN_bd_blk_mem_gen_0_1.xci",
+        "inst_hier_path": "blk_ram_temp",
+        "parameters": {
+          "Enable_32bit_Address": {
+            "value": "false"
+          },
+          "Enable_B": {
+            "value": "Use_ENB_Pin"
+          },
+          "Memory_Type": {
+            "value": "Simple_Dual_Port_RAM"
+          },
+          "Operating_Mode_A": {
+            "value": "NO_CHANGE"
+          },
+          "Port_B_Clock": {
+            "value": "100"
+          },
+          "Port_B_Enable_Rate": {
+            "value": "100"
+          },
+          "Read_Width_B": {
+            "value": "8"
+          },
+          "Register_PortB_Output_of_Memory_Primitives": {
+            "value": "true"
+          },
+          "Use_Byte_Write_Enable": {
+            "value": "false"
+          },
+          "Write_Depth_A": {
+            "value": "65536"
+          },
+          "Write_Width_A": {
+            "value": "8"
+          },
+          "Write_Width_B": {
+            "value": "8"
+          },
+          "use_bram_block": {
+            "value": "Stand_Alone"
+          }
+        }
+      },
+      "NN_Top_0": {
+        "vlnv": "xilinx.com:module_ref:NN_Top:1.0",
+        "xci_name": "NN_bd_NN_Top_0_0",
+        "xci_path": "ip\\NN_bd_NN_Top_0_0\\NN_bd_NN_Top_0_0.xci",
+        "inst_hier_path": "NN_Top_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "NN_Top",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "start_flag": {
+            "direction": "I"
+          },
+          "sys_clk": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "rst_n": {
+            "type": "rst",
+            "direction": "I",
+            "parameters": {
+              "POLARITY": {
+                "value": "ACTIVE_LOW",
+                "value_src": "constant"
+              }
+            }
+          },
+          "end_flag": {
+            "direction": "O"
+          },
+          "rom_data_rw": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "rom_data_row": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "ram_data_r": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "rom_data_ri": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "rom_addr_ri": {
+            "direction": "O",
+            "left": "11",
+            "right": "0"
+          },
+          "rom_en_ri": {
+            "direction": "O"
+          },
+          "ram_addr_w": {
+            "direction": "O",
+            "left": "15",
+            "right": "0"
+          },
+          "ram_data_w": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "ram_en": {
+            "direction": "O"
+          },
+          "ram_wea": {
+            "direction": "O"
+          },
+          "ram_addr_r": {
+            "direction": "O",
+            "left": "15",
+            "right": "0"
+          },
+          "ram_en_r": {
+            "direction": "O"
+          },
+          "rom_addr_rw": {
+            "direction": "O",
+            "left": "14",
+            "right": "0"
+          },
+          "rom_en_rw": {
+            "direction": "O"
+          },
+          "rom_addr_row": {
+            "direction": "O",
+            "left": "8",
+            "right": "0"
+          },
+          "rom_en_row": {
+            "direction": "O"
+          },
+          "NN_out_male": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "NN_out_female": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          }
+        }
+      }
+    },
+    "nets": {
+      "NN_Top_0_end_flag": {
+        "ports": [
+          "NN_Top_0/end_flag",
+          "end_ConV1"
+        ]
+      },
+      "NN_Top_0_ram_addr_r": {
+        "ports": [
+          "NN_Top_0/ram_addr_r",
+          "blk_ram_temp/addrb"
+        ]
+      },
+      "NN_Top_0_ram_addr_w": {
+        "ports": [
+          "NN_Top_0/ram_addr_w",
+          "blk_ram_temp/addra"
+        ]
+      },
+      "NN_Top_0_ram_data_w": {
+        "ports": [
+          "NN_Top_0/ram_data_w",
+          "blk_ram_temp/dina"
+        ]
+      },
+      "NN_Top_0_ram_en": {
+        "ports": [
+          "NN_Top_0/ram_en",
+          "blk_ram_temp/ena"
+        ]
+      },
+      "NN_Top_0_ram_en_r": {
+        "ports": [
+          "NN_Top_0/ram_en_r",
+          "blk_ram_temp/enb"
+        ]
+      },
+      "NN_Top_0_ram_wea": {
+        "ports": [
+          "NN_Top_0/ram_wea",
+          "blk_ram_temp/wea"
+        ]
+      },
+      "NN_Top_0_rom_addr_ri": {
+        "ports": [
+          "NN_Top_0/rom_addr_ri",
+          "blk_rom_inimg/addra"
+        ]
+      },
+      "NN_Top_0_rom_addr_row": {
+        "ports": [
+          "NN_Top_0/rom_addr_row",
+          "blk_rom_other_weight/addra"
+        ]
+      },
+      "NN_Top_0_rom_addr_rw": {
+        "ports": [
+          "NN_Top_0/rom_addr_rw",
+          "blk_rom_weight/addra"
+        ]
+      },
+      "NN_Top_0_rom_en_ri": {
+        "ports": [
+          "NN_Top_0/rom_en_ri",
+          "blk_rom_inimg/ena"
+        ]
+      },
+      "NN_Top_0_rom_en_row": {
+        "ports": [
+          "NN_Top_0/rom_en_row",
+          "blk_rom_other_weight/ena"
+        ]
+      },
+      "NN_Top_0_rom_en_rw": {
+        "ports": [
+          "NN_Top_0/rom_en_rw",
+          "blk_rom_weight/ena"
+        ]
+      },
+      "blk_ram_temp_value_doutb": {
+        "ports": [
+          "blk_ram_temp/doutb",
+          "ram_data_rtb",
+          "NN_Top_0/ram_data_r"
+        ]
+      },
+      "blk_rom_inimg_douta": {
+        "ports": [
+          "blk_rom_inimg/douta",
+          "NN_Top_0/rom_data_ri"
+        ]
+      },
+      "blk_rom_other_weight_douta": {
+        "ports": [
+          "blk_rom_other_weight/douta",
+          "NN_Top_0/rom_data_row"
+        ]
+      },
+      "blk_rom_weight_douta": {
+        "ports": [
+          "blk_rom_weight/douta",
+          "NN_Top_0/rom_data_rw"
+        ]
+      },
+      "ram_addr_rtb_1": {
+        "ports": [
+          "ram_addr_rtb"
+        ]
+      },
+      "ram_en_rtb_1": {
+        "ports": [
+          "ram_en_rtb"
+        ]
+      },
+      "rst_n_1": {
+        "ports": [
+          "rst_n",
+          "NN_Top_0/rst_n"
+        ]
+      },
+      "start_ConV1_1": {
+        "ports": [
+          "start_ConV1",
+          "NN_Top_0/start_flag"
+        ]
+      },
+      "sys_clk_1": {
+        "ports": [
+          "sys_clk",
+          "blk_rom_inimg/clka",
+          "blk_rom_other_weight/clka",
+          "blk_rom_weight/clka",
+          "blk_ram_temp/clka",
+          "blk_ram_temp/clkb",
+          "NN_Top_0/sys_clk"
+        ]
+      }
+    }
+  }
+}

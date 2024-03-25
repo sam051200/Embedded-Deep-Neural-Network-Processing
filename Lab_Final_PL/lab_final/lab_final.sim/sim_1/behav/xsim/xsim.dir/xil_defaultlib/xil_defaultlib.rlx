@@ -1,0 +1,23 @@
+0.7
+2020.2
+Oct 19 2021
+03:16:22
+C:/Users/sam/fpga/Lab_Final_PL/code/source/ConV1.v,1702759143,verilog,,C:/Users/sam/fpga/Lab_Final_PL/code/source/ConV2.v,,ConV1,,,,,,,,
+C:/Users/sam/fpga/Lab_Final_PL/code/source/ConV2.v,1702759280,verilog,,C:/Users/sam/fpga/Lab_Final_PL/code/source/ConV3.v,,ConV2,,,,,,,,
+C:/Users/sam/fpga/Lab_Final_PL/code/source/ConV3.v,1702759393,verilog,,C:/Users/sam/fpga/Lab_Final_PL/code/source/FC1.v,,ConV3,,,,,,,,
+C:/Users/sam/fpga/Lab_Final_PL/code/source/FC1.v,1702759399,verilog,,C:/Users/sam/fpga/Lab_Final_PL/code/source/FC2.v,,FC1,,,,,,,,
+C:/Users/sam/fpga/Lab_Final_PL/code/source/FC2.v,1702759405,verilog,,C:/Users/sam/fpga/Lab_Final_PL/code/source/FC3.v,,FC2,,,,,,,,
+C:/Users/sam/fpga/Lab_Final_PL/code/source/FC3.v,1702766679,verilog,,C:/Users/sam/fpga/Lab_Final_PL/code/source/MP1.v,,FC3,,,,,,,,
+C:/Users/sam/fpga/Lab_Final_PL/code/source/MP1.v,1702573920,verilog,,C:/Users/sam/fpga/Lab_Final_PL/code/source/MP2.v,,MP1,,,,,,,,
+C:/Users/sam/fpga/Lab_Final_PL/code/source/MP2.v,1702573955,verilog,,C:/Users/sam/fpga/Lab_Final_PL/code/source/MUX_mem_out.v,,MP2,,,,,,,,
+C:/Users/sam/fpga/Lab_Final_PL/code/source/MUX_mem_out.v,1703007089,verilog,,C:/Users/sam/fpga/Lab_Final_PL/code/source/NN_Top.v,,MUX_mem_out,,,,,,,,
+C:/Users/sam/fpga/Lab_Final_PL/code/source/NN_Top.v,1703007139,verilog,,C:/Users/sam/fpga/Lab_Final_PL/lab_final/lab_final.ip_user_files/bd/NN_bd/ip/NN_bd_blk_mem_gen_0_0/sim/NN_bd_blk_mem_gen_0_0.v,,NN_Top,,,,,,,,
+C:/Users/sam/fpga/Lab_Final_PL/lab_final/lab_final.gen/sources_1/bd/NN_bd/hdl/NN_bd_wrapper.v,1703007185,verilog,,C:/Users/sam/fpga/Lab_Final_PL/lab_final/lab_final.srcs/sim_1/new/NN_tb.v,,NN_bd_wrapper,,,,,,,,
+C:/Users/sam/fpga/Lab_Final_PL/lab_final/lab_final.ip_user_files/bd/NN_bd/ip/NN_bd_NN_Top_0_0/sim/NN_bd_NN_Top_0_0.v,1703007185,verilog,,C:/Users/sam/fpga/Lab_Final_PL/lab_final/lab_final.ip_user_files/bd/NN_bd/sim/NN_bd.v,,NN_bd_NN_Top_0_0,,,,,,,,
+C:/Users/sam/fpga/Lab_Final_PL/lab_final/lab_final.ip_user_files/bd/NN_bd/ip/NN_bd_blk_mem_gen_0_0/sim/NN_bd_blk_mem_gen_0_0.v,1698589121,verilog,,C:/Users/sam/fpga/Lab_Final_PL/lab_final/lab_final.ip_user_files/bd/NN_bd/ip/NN_bd_blk_mem_gen_1_0/sim/NN_bd_blk_mem_gen_1_0.v,,NN_bd_blk_mem_gen_0_0,,,,,,,,
+C:/Users/sam/fpga/Lab_Final_PL/lab_final/lab_final.ip_user_files/bd/NN_bd/ip/NN_bd_blk_mem_gen_0_1/sim/NN_bd_blk_mem_gen_0_1.v,1698588318,verilog,,C:/Users/sam/fpga/Lab_Final_PL/lab_final/lab_final.ip_user_files/bd/NN_bd/ip/NN_bd_NN_Top_0_0/sim/NN_bd_NN_Top_0_0.v,,NN_bd_blk_mem_gen_0_1,,,,,,,,
+C:/Users/sam/fpga/Lab_Final_PL/lab_final/lab_final.ip_user_files/bd/NN_bd/ip/NN_bd_blk_mem_gen_1_0/sim/NN_bd_blk_mem_gen_1_0.v,1698589126,verilog,,C:/Users/sam/fpga/Lab_Final_PL/lab_final/lab_final.ip_user_files/bd/NN_bd/ip/NN_bd_blk_mem_gen_2_0/sim/NN_bd_blk_mem_gen_2_0.v,,NN_bd_blk_mem_gen_1_0,,,,,,,,
+C:/Users/sam/fpga/Lab_Final_PL/lab_final/lab_final.ip_user_files/bd/NN_bd/ip/NN_bd_blk_mem_gen_2_0/sim/NN_bd_blk_mem_gen_2_0.v,1701797865,verilog,,C:/Users/sam/fpga/Lab_Final_PL/lab_final/lab_final.ip_user_files/bd/NN_bd/ip/NN_bd_blk_mem_gen_0_1/sim/NN_bd_blk_mem_gen_0_1.v,,NN_bd_blk_mem_gen_2_0,,,,,,,,
+C:/Users/sam/fpga/Lab_Final_PL/lab_final/lab_final.ip_user_files/bd/NN_bd/sim/NN_bd.v,1703007185,verilog,,C:/Users/sam/fpga/Lab_Final_PL/lab_final/lab_final.gen/sources_1/bd/NN_bd/hdl/NN_bd_wrapper.v,,NN_bd,,,,,,,,
+C:/Users/sam/fpga/Lab_Final_PL/lab_final/lab_final.sim/sim_1/behav/xsim/glbl.v,1634335545,verilog,,,,glbl,,,,,,,,
+C:/Users/sam/fpga/Lab_Final_PL/lab_final/lab_final.srcs/sim_1/new/NN_tb.v,1702310199,verilog,,,,NN_tb,,,,,,,,

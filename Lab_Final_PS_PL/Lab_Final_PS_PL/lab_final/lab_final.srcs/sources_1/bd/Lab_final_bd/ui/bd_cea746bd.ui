@@ -1,0 +1,47 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.90122",
+   "Default View_TopLeft":"-341,0",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port port-id_start_ConV1 -pg 1 -lvl 0 -x 0 -y 400 -defaultsOSRD
+preplace port port-id_sys_clk -pg 1 -lvl 0 -x 0 -y 420 -defaultsOSRD
+preplace port port-id_rst_n -pg 1 -lvl 0 -x 0 -y 440 -defaultsOSRD
+preplace port port-id_rom_en_ri -pg 1 -lvl 3 -x 680 -y 360 -defaultsOSRD
+preplace port port-id_end_flag -pg 1 -lvl 3 -x 680 -y 320 -defaultsOSRD
+preplace portBus NN_out_male -pg 1 -lvl 3 -x 680 -y 800 -defaultsOSRD
+preplace portBus NN_out_female -pg 1 -lvl 3 -x 680 -y 780 -defaultsOSRD
+preplace portBus rom_data_ri -pg 1 -lvl 0 -x 0 -y 520 -defaultsOSRD
+preplace portBus rom_addr_ri -pg 1 -lvl 3 -x 680 -y 340 -defaultsOSRD
+preplace inst blk_ram_temp -pg 1 -lvl 2 -x 560 -y 160 -defaultsOSRD
+preplace inst blk_rom_other_weight -pg 1 -lvl 2 -x 560 -y 520 -defaultsOSRD
+preplace inst blk_rom_weight -pg 1 -lvl 2 -x 560 -y 700 -defaultsOSRD
+preplace inst NN_Top_0 -pg 1 -lvl 1 -x 210 -y 460 -defaultsOSRD
+preplace netloc NN_Top_0_NN_out_female 1 1 2 380J 810 660J
+preplace netloc NN_Top_0_NN_out_male 1 1 2 390J 800 NJ
+preplace netloc NN_Top_0_end_flag 1 1 2 NJ 320 NJ
+preplace netloc NN_Top_0_ram_addr_r 1 1 1 420 200n
+preplace netloc NN_Top_0_ram_addr_w 1 1 1 380 80n
+preplace netloc NN_Top_0_ram_data_w 1 1 1 390 120n
+preplace netloc NN_Top_0_ram_en 1 1 1 400 140n
+preplace netloc NN_Top_0_ram_en_r 1 1 1 430 260n
+preplace netloc NN_Top_0_ram_wea 1 1 1 410 160n
+preplace netloc NN_Top_0_rom_addr_ri 1 1 2 NJ 340 NJ
+preplace netloc NN_Top_0_rom_addr_row 1 1 1 450 500n
+preplace netloc NN_Top_0_rom_addr_rw 1 1 1 430 500n
+preplace netloc NN_Top_0_rom_en_ri 1 1 2 NJ 360 NJ
+preplace netloc NN_Top_0_rom_en_row 1 1 1 N 560
+preplace netloc NN_Top_0_rom_en_rw 1 1 1 410 520n
+preplace netloc blk_ram_temp_value_doutb 1 0 2 30 240 NJ
+preplace netloc blk_rom_other_weight_douta 1 0 2 40 660 460
+preplace netloc blk_rom_weight_douta 1 0 2 20 720 NJ
+preplace netloc rom_data_ri_1 1 0 1 NJ 520
+preplace netloc rst_n_1 1 0 1 NJ 440
+preplace netloc start_ConV1_1 1 0 1 NJ 400
+preplace netloc sys_clk_1 1 0 2 20 230 440
+levelinfo -pg 1 0 210 560 680
+pagesize -pg 1 -db -bbox -sgen -160 0 860 820
+"
+}
+0

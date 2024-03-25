@@ -1,0 +1,46 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.821111",
+   "Default View_TopLeft":"-392,1",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port port-id_sys_clk -pg 1 -lvl 0 -x 0 -y 480 -defaultsOSRD
+preplace port port-id_rst_n -pg 1 -lvl 0 -x 0 -y 500 -defaultsOSRD
+preplace port port-id_end_ConV1 -pg 1 -lvl 3 -x 720 -y 700 -defaultsOSRD
+preplace port port-id_ram_en_rtb -pg 1 -lvl 0 -x 0 -y 600 -defaultsOSRD
+preplace port port-id_start_ConV1 -pg 1 -lvl 0 -x 0 -y 460 -defaultsOSRD
+preplace portBus ram_data_rtb -pg 1 -lvl 3 -x 720 -y 680 -defaultsOSRD
+preplace portBus ram_addr_rtb -pg 1 -lvl 0 -x 0 -y 620 -defaultsOSRD
+preplace inst blk_rom_inimg -pg 1 -lvl 2 -x 600 -y 280 -defaultsOSRD
+preplace inst blk_rom_weight -pg 1 -lvl 2 -x 600 -y 800 -defaultsOSRD
+preplace inst blk_rom_other_weight -pg 1 -lvl 2 -x 600 -y 100 -defaultsOSRD
+preplace inst blk_ram_temp -pg 1 -lvl 2 -x 600 -y 520 -defaultsOSRD
+preplace inst NN_Top_0 -pg 1 -lvl 1 -x 230 -y 540 -defaultsOSRD
+preplace netloc NN_Top_0_end_flag 1 1 2 460J 700 NJ
+preplace netloc NN_Top_0_ram_addr_r 1 1 1 480 540n
+preplace netloc NN_Top_0_ram_addr_w 1 1 1 450 440n
+preplace netloc NN_Top_0_ram_data_w 1 1 1 N 480
+preplace netloc NN_Top_0_ram_en 1 1 1 N 500
+preplace netloc NN_Top_0_ram_en_r 1 1 1 450 560n
+preplace netloc NN_Top_0_ram_wea 1 1 1 N 520
+preplace netloc NN_Top_0_rom_addr_ri 1 1 1 420 260n
+preplace netloc NN_Top_0_rom_addr_row 1 1 1 410 80n
+preplace netloc NN_Top_0_rom_addr_rw 1 1 1 420 580n
+preplace netloc NN_Top_0_rom_en_ri 1 1 1 430 320n
+preplace netloc NN_Top_0_rom_en_row 1 1 1 440 140n
+preplace netloc NN_Top_0_rom_en_rw 1 1 1 400 600n
+preplace netloc blk_ram_temp_value_doutb 1 0 3 60 740 480 680 NJ
+preplace netloc blk_rom_inimg_douta 1 0 2 50 300 NJ
+preplace netloc blk_rom_other_weight_douta 1 0 2 40 120 NJ
+preplace netloc blk_rom_weight_douta 1 0 2 30 820 NJ
+preplace netloc ram_addr_rtb_1 1 0 1 NJ 620
+preplace netloc ram_en_rtb_1 1 0 1 NJ 600
+preplace netloc rst_n_1 1 0 1 NJ 500
+preplace netloc start_ConV1_1 1 0 1 NJ 460
+preplace netloc sys_clk_1 1 0 2 20 750 470
+levelinfo -pg 1 0 230 600 720
+pagesize -pg 1 -db -bbox -sgen -180 0 890 900
+"
+}
+0

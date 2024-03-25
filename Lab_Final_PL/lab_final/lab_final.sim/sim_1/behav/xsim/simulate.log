@@ -1,0 +1,21 @@
+Time resolution is 1 ps
+Block Memory Generator module NN_tb.UUT.NN_bd_i.blk_ram_temp.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module NN_tb.UUT.NN_bd_i.blk_rom_inimg.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module NN_tb.UUT.NN_bd_i.blk_rom_other_weight.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module NN_tb.UUT.NN_bd_i.blk_rom_weight.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Check Coefficient ...
+OK: exp =          68, rdata =   68
+blk_mem_gen_v8_4_5 collision detected at time: 124261805000, Instance: NN_tb.UUT.NN_bd_i.blk_ram_temp.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst , A write address: 8001, B  read address: 8001
+blk_mem_gen_v8_4_5 collision detected at time: 124261815000, Instance: NN_tb.UUT.NN_bd_i.blk_ram_temp.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst , A write address: 8001, B  read address: 8001
+ERROR: addr =     1, exp =         -14, rdata =  -13
+Complete FC3 operation time :   124261645  ns; 
+total number of errors  :           0 ; 
+Max Diff  :           0 ; 
+$stop called at time : 124261825 ns : File "C:/Users/sam/fpga/Lab_Final_PL/lab_final/lab_final.srcs/sim_1/new/NN_tb.v" Line 334
+INFO: xsimkernel Simulation Memory Usage: 18608 KB (Peak: 18608 KB), Simulation CPU Usage: 122468 ms

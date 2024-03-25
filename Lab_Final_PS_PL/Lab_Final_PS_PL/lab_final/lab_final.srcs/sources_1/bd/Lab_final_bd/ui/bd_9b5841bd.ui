@@ -1,0 +1,46 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.00006",
+   "Default View_TopLeft":"755,52",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR_0 -pg 1 -lvl 7 -x 2240 -y 760 -defaultsOSRD
+preplace port FIXED_IO_0 -pg 1 -lvl 7 -x 2240 -y 780 -defaultsOSRD
+preplace inst axi_dma_0 -pg 1 -lvl 4 -x 1310 -y 520 -defaultsOSRD
+preplace inst axi_mem_intercon -pg 1 -lvl 5 -x 1650 -y 550 -defaultsOSRD
+preplace inst blk_ram_inimg -pg 1 -lvl 4 -x 1310 -y 240 -defaultsOSRD
+preplace inst myip_v1_0_0 -pg 1 -lvl 3 -x 920 -y 190 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 6 -x 2010 -y 800 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 2 -x 540 -y 840 -defaultsOSRD
+preplace inst rst_ps7_0_50M -pg 1 -lvl 1 -x 190 -y 880 -defaultsOSRD
+preplace inst NN -pg 1 -lvl 2 -x 540 -y 360 -defaultsOSRD
+preplace netloc NN_NN_out_female 1 2 1 710 290n
+preplace netloc NN_NN_out_male 1 2 1 690 270n
+preplace netloc NN_end_flag 1 2 1 720 310n
+preplace netloc NN_rom_addr_ri 1 2 2 710J 370 1090
+preplace netloc NN_rom_en_ri 1 2 2 NJ 380 1130
+preplace netloc myip_v1_0_0_NN_addra 1 3 1 1090 160n
+preplace netloc myip_v1_0_0_NN_dina 1 3 1 N 200
+preplace netloc myip_v1_0_0_NN_en 1 3 1 N 220
+preplace netloc myip_v1_0_0_NN_wea 1 3 1 N 240
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 7 20 780 360 230 690 10 1100 650 1490 710 1800 900 2220
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 7 20 980 NJ 980 NJ 980 NJ 980 NJ 980 NJ 980 2210
+preplace netloc rom_data_ri_1 1 1 3 390 460 NJ 460 1120J
+preplace netloc rst_ps7_0_50M_peripheral_aresetn 1 1 4 370 470 730 480 1080 640 1500
+preplace netloc start_ConV1_1 1 1 3 380 450 NJ 450 1080
+preplace netloc axi_dma_0_M_AXIS_MM2S 1 2 3 740 400 NJ 400 1480
+preplace netloc axi_dma_0_M_AXI_MM2S 1 4 1 N 460
+preplace netloc axi_dma_0_M_AXI_S2MM 1 4 1 N 480
+preplace netloc axi_mem_intercon_M00_AXI 1 5 1 1810 550n
+preplace netloc myip_v1_0_0_m00_axis 1 3 1 1110 140n
+preplace netloc processing_system7_0_DDR 1 6 1 NJ 760
+preplace netloc processing_system7_0_FIXED_IO 1 6 1 NJ 780
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 6 390 700 NJ 700 NJ 700 NJ 700 NJ 700 2220
+preplace netloc ps7_0_axi_periph_M00_AXI 1 2 2 740 470 NJ
+preplace netloc ps7_0_axi_periph_M01_AXI 1 2 1 700 90n
+levelinfo -pg 1 0 190 540 920 1310 1650 2010 2240
+pagesize -pg 1 -db -bbox -sgen 0 0 2370 990
+"
+}
+0

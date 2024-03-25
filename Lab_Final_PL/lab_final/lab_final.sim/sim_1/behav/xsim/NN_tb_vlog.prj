@@ -1,0 +1,26 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../code/source/ConV1.v" \
+"../../../../../code/source/ConV2.v" \
+"../../../../../code/source/ConV3.v" \
+"../../../../../code/source/FC1.v" \
+"../../../../../code/source/FC2.v" \
+"../../../../../code/source/FC3.v" \
+"../../../../../code/source/MP1.v" \
+"../../../../../code/source/MP2.v" \
+"../../../../../code/source/MUX_mem_out.v" \
+"../../../../../code/source/NN_Top.v" \
+"../../../../lab_final.ip_user_files/bd/NN_bd/ip/NN_bd_blk_mem_gen_0_0/sim/NN_bd_blk_mem_gen_0_0.v" \
+"../../../../lab_final.ip_user_files/bd/NN_bd/ip/NN_bd_blk_mem_gen_1_0/sim/NN_bd_blk_mem_gen_1_0.v" \
+"../../../../lab_final.ip_user_files/bd/NN_bd/ip/NN_bd_blk_mem_gen_2_0/sim/NN_bd_blk_mem_gen_2_0.v" \
+"../../../../lab_final.ip_user_files/bd/NN_bd/ip/NN_bd_blk_mem_gen_0_1/sim/NN_bd_blk_mem_gen_0_1.v" \
+"../../../../lab_final.ip_user_files/bd/NN_bd/ip/NN_bd_NN_Top_0_0/sim/NN_bd_NN_Top_0_0.v" \
+"../../../../lab_final.ip_user_files/bd/NN_bd/sim/NN_bd.v" \
+"../../../../lab_final.gen/sources_1/bd/NN_bd/hdl/NN_bd_wrapper.v" \
+"../../../../lab_final.srcs/sim_1/new/NN_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
